@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Socket.io chat application</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <link rel="stylesheet" href="app.css">
+  <style>
+
+  </style>
+</head>
+<body>
+  <div class="modal__bg">
+    <div class="modal__inner">
+      <h1>Hello, this is a basic chat application, based on socket.io</h1>
+      <input type="text" placeholder="What's you nickname?">
+      <button>Ok</button>
+    </div>
+  </div>
+
+  <div class="app">
+    <div class="feedback"></div>
+    <ul class="chat">
+    </ul>
+    <div class="message">
+      <input class="field" autocomplete="off" /><button class="send">Push me</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
